@@ -1,0 +1,36 @@
+h1 {
+    font-family: monospace;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40;
+    letter-spacing: 20pxjc;
+    text-decoration: underline purple wavy;
+
+}
+
+h2 {
+    color: magenta;
+}
+
+p {
+    color: white;
+    background-color: black;
+}
+
+button {
+    color: red;
+    background-color: pink;
+}
+
+li {
+    color: blue;
+
+}
+
+.done {
+    color: grey;
+}
+
+.app {
+    color: black;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links and its colors</title>
+    <!-- links and its color can be changed while visiting -->
+    <style>
+        a:link {
+            color: rgb(20, 89, 116);
+        }
+        a:visited{
+            color: rgb(73, 172, 155);
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>link colors</h2>
+    <a href="imgs/girl.jpg" target="_blank">html images</a>
+    <br>
+
+   <h2>picrure elements</h2>
+   <picture>
+       <source media="(min-width:650px)" srcset="imgs/girl.jpg" >
+       <source media="(min-width: 465px)" srcset="imgs/phone.jpg">
+       <img src="imgs/comp.jpg" alt="comp" style="width: auto;">
+   </picture>
+
+    
+</body>
+</html>
